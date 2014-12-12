@@ -1,0 +1,47 @@
+article h1 {
+	font-size: 2em;
+}
+
+main section {
+	display: flex;
+	justify-content: space-between;
+}
+
+.item {
+	max-width: 20em;
+}
+	.item p {
+		
+	}
+
+.box {
+	display: inline-block;
+	position: relative;
+}
+	.box > img {
+		width: 100%;
+	}
+
+.box-text {
+	position: absolute;
+	bottom: 3px;
+	
+	width: 100%;
+	
+	background: rgba(29,41,93,0.8);
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	
+	transition: all 200ms ease-out;
+}
+	.box-text img {
+		width: 40px;
+		height: auto;
+		vertical-align: middle;
+	}
+
+.box:hover .box-text{
+	background: rgba(0,85,128,0.8);
+}
+

@@ -1,0 +1,29 @@
+#main_div_admission h3 {
+    color: #F15D2F;
+    margin-top: 5px;
+}
+
+#main_div_admission div{
+    /* margin-left: 15px; */
+}
+
+#main_div_admission a {
+    /* margin-left: 15px; */
+}
+
+
+#main_div_admission {
+    margin: 0 auto;
+
+    /* margin-right: 150px; 
+    margin-left: 150px; */
+    width: 75%;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 0px;
+}
+
+.iframeSpecial {
+    border: none;
+    overflow:hidden;
+}
