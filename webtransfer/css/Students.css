@@ -1,0 +1,53 @@
+.sidebar {
+	width: 25%;
+	float: left;
+}
+
+.sidebar > div {
+	background-color: #c4c4c4;
+	color: white;
+	text-align: center;
+	padding: 1em 0;
+	font-size: 1.2em;
+}
+
+.sidebar > div:hover {
+	background-color: white;
+	color: black;
+	text-align: center;
+	padding: 1em 0;
+	font-size: 1.2em;
+}
+
+.intro {
+	margin-left: 3em;
+	float: left;
+	width: 65%;
+}
+
+img {
+	width: 20%;
+}
+
+.hidden {
+	width: 20em;
+	visibility: hidden;
+}
+
+.event {
+	display: flex;
+	margin-bottom: 1em;
+}
+	.event .pic {
+		flex: 0 0 200px;
+	}
+	.event img {
+		width: 100%;
+		height: auto;
+	}
+	.event .text {
+		margin-left: 1em;
+	}
+	.event .text h3 {
+		margin-top: 0;
+	}

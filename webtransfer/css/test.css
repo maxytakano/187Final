@@ -1,0 +1,9 @@
+iframe {
+	display: block;
+	border:0px;
+	width: 100%;
+}
+
+main {
+	height: 1400px;
+}
