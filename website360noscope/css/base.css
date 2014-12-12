@@ -163,6 +163,7 @@ main a:hover {
 }
 
 /* Footer */
+/*
 footer {
 	background-color: #333333;
 	color: white;
@@ -175,6 +176,58 @@ footer {
 	footer a:hover {
 		color: orange;
 	}
+*/
+
+#footer
+{
+	background-color: #282828;
+	
+	color:#FFFFF5;
+	font-family: verdana;
+	font-size: 14px;
+    left: 0;
+    bottom: 0;
+    height: 180px;
+    width: 100%;
+	z-index: 1;
+}
+
+#footer .social
+{
+	width: 30px;
+    margin: 5px;
+	margin-bottom: 2.5%;
+	margin-left:40%;
+}
+
+.footerSection img
+{
+    width: 40px;
+    height: 40px;
+/*
+	width:26.5%;
+	margin-left: 37%;
+*/
+}
+
+
+
+#footer ul
+{
+	list-style: none;
+}
+
+#footer a
+{
+	color: #FFFFF5;
+	font-size: 14px;
+}
+
+.footerSection
+{
+	border-right: solid #FFFFF5 1px;
+	height:160px;
+}
 
 .index {
 	display: flex;
