@@ -200,6 +200,13 @@ footer {
 	margin-left:40%;
 }
 
+.footerSocialSection {
+    margin-top: 15px;
+}
+
+.footerSocialSection .social_media_icon{
+    margin-bottom: 5px;
+}
 .footerSection img
 {
     width: 40px;
