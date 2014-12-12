@@ -1,0 +1,105 @@
+#top_nav_top_row {
+    padding: 5px;
+    background-color: #D1D1D1;
+}
+
+#main_div {
+    margin: 5px;
+}
+
+#top_stories_header {
+    margin-top: 25px;
+}
+
+.top_story_img {
+    max-width:100%; 
+    max-height:100%;
+    margin-bottom: 10px;
+}
+
+#more_stories_div li {
+    list-style: none;
+    padding-bottom: 5px;
+}
+
+#more_stories_div ul {
+    padding-left: 5px;
+}
+
+#more_stories_div button {
+    width: 100%;
+}
+
+#tweet_img {
+    max-width:100%; 
+    max-height:100%;
+}
+
+.social_media_icon {
+    margin-right: 2px;
+    margin-top: 30px;
+}
+
+#bottom_nav_bar {
+    background-color: #f8f8f8;
+    padding-top: 10px;
+}
+
+#bottom_nav_bar li{
+    list-style: none;
+    padding-left: 0px;
+}
+
+#bottom_nav_bar ul{
+    padding-left: 5px;
+}
+
+#bottom_nav_bar h4{
+    color: #F15D2F;
+}
+
+#bottom_nav_bar_button_container {
+    margin-top: 0px;
+}
+
+#bottom_nav_bar_button_container button{
+    text-align: left;
+}
+
+#campus_address_div {
+    padding: 5px;
+    color: #666666;
+}
+
+.image_consistency {
+    height:200px;
+    width: 338px;
+    padding-bottom: 10px;
+}
+
+.image_consistency_button {
+    height:80px;
+}
+.image_consistency_button_container {
+    padding: 2px;
+}
+
+.image_consistency_contact_bar {
+    height:60px;
+}
+
+#image_consistency_contact_bar_home {
+    height:78px;
+}
+
+.image_consistency_contact_bar_container {
+    padding: 1px;
+}
+
+.image_consistency_brand {
+    height:220px;
+}
+
+.image_consistency_brand_container {
+    padding: 5px;
+}
