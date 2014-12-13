@@ -1,3 +1,12 @@
+.topNavSearchBar {
+    color: #ffffff;
+}
+
+.topNavSearchBar input {
+    background-color: #ffffff;
+}
+
+
 .eventSearchBarUnderHeader {
     margin: 0px;
     width: 100%;
