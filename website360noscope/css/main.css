@@ -117,7 +117,15 @@
     margin-left: 15px;
 }
 
-<<<<<<< Updated upstream
+.placeImageContainer img{
+    width: 100%;
+    padding-top: 25px;
+}
+
+.placeUserProfileImageContainer img {
+    width: 100%;
+    margin: 5px 0px 0px 2px;
+}
 
 /*max ***************/
 .boxclass {
@@ -216,14 +224,3 @@
 .box:hover .box-text{
     background: rgba(0,85,128,0.8);
 }
-=======
-.placeImageContainer img{
-    width: 100%;
-    padding-top: 25px;
-}
-
-.placeUserProfileImageContainer img {
-    width: 100%;
-    margin: 5px 0px 0px 2px;
-}
->>>>>>> Stashed changes
