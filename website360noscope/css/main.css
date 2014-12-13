@@ -1,3 +1,12 @@
+.topNavSearchBar {
+    color: #ffffff;
+}
+
+.topNavSearchBar input {
+    background-color: #ffffff;
+}
+
+
 .eventSearchBarUnderHeader {
     margin: 0px;
     width: 100%;
@@ -233,3 +242,23 @@
     height: 350px;
     width: 200  px;
  }
+
+.pickup {
+    margin-top: 0;
+    margin-bottom: 10;
+    font-size: 1.5em;
+}
+
+.forum1 {
+    background-color: #651110;
+    color: white;
+    font-size: 2em;
+    /*color: red;*/
+}
+
+.forum2 {
+    background-color: #707070;
+    color: white;
+    font-size: 1.7em;
+}
+
