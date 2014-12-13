@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>DateGuru - SD</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/base.css"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="css/frontpage.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <!-- Font Awesome icons-->
+    <link rel="stylesheet" href="./css/font-awesome-4.2.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div>
+                <a href="index.html">
+                    <img class="logo" src="img/logo-white.png" alt=""/>
+                </a>
+            </div>
+            <nav class="navigation topic-nav eventTopGeneralNav">
+                <div class="dropdown">
+                    <a href="placesToVisit.html">Places to visit</a>
+                    <div class="menu">
+                        <section>
+                            <a href="">Restaurants</a>
+                            <a href="">Outdoors</a>
+                            <a href="">Nightlife</a>
+                            <a href="">Entertainment</a>
+                            <a href="">Getaways and Resorts</a>
+                        </section>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="img/Research.png">Gifts and Services</a>
+                    <div class="menu">
+                        <section>
+                            <a href="">Gift Ideas</a>
+                            <a href="">Services for Hire</a>
+                            <a href="">Flower and Chocolate</a>
+                            <a href="">Custom Gifts</a>
+                            <a href="">DIY Gifts</a>
+                        </section>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="">Dating Advice</a>
+                    <div class="menu">
+                        <section>
+                            <a href="">Relationship Advice</a>
+                            <a href="">Sex and Attraction</a>
+                            <a href="">First Dates</a>
+                            <a href="">Dating Issues</a>
+                            <a href="">Breaking Up</a>
+                            <a href="">Couple Forum</a>
+                        </section>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="">Single?</a>
+                    <div class="menu">
+                        <section>
+                            <a href="">Places to Meet Singles</a>
+                            <a href="">Tips for Singles</a>
+                            <a href="">Finding a Date</a>
+                            <a href="">Pickup Lines</a>
+                            <a href="">Single Forum</a>
+                        </section>
+                    </div>
+                </div>
+            <div class="userProfileButton">
+                <a href=""><h5>My Profile&nbsp;<i class="fa fa-user"></i></h5></a>
+            </div>
+            </nav>
+            
+        </div>
+        <div class="header-bottom">
+            <nav class="navigation topic-nav">
+                <div>
+                    <a href="">Events&nbsp;<i class="fa fa-caret-right"></i></a>
+                </div>
+                <div>
+                    <a href="">Music</a>
+                </div>
+                <div>
+                    <a href="">Food and Drink</a>
+                </div>
+                <div>
+                    <a href="">Festivals</a>
+                </div>
+                <div>
+                    <a href="">Performances</a>
+                </div>
+                <div>
+                    <a href="">Sporting Events</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <div class="eventSearchBarUnderHeader container-fluid">
+         
+            <div class="col-md-4 col-lg-4">
+                <h3>Event Type</h3>
+                <input class="eventInputField" type="text" name="whatevent" placeholder="Sporting Events">
+            </div>
+            <div class="col-md-4 col-lg-3">
+                <h3>Close To</h3>
+                <input class="eventInputField" type="text" name="whereevent" placeholder="Around Where Should The Event Be?">
+            </div>
+
+            <div class="col-md-3 col-lg-3">
+                <h3>In the Next</h3>
+                <select class="form-control">
+                    <option value="day">Day</option>
+                    <option value="week">Week</option>
+                    <option value="2weeks">2 Weeks</option>
+                    <option value="month">Month</option>
+                    <option value="year">Year</option>
+                </select>
+            </div>
+
+           
+            <div class="col-md-2 col-lg-2 eventsSearchIcon">
+                <button>
+                    <h3>Search<i class="fa fa-search pull-right"></i></h3>
+                </button>
+            </div>
+        </div>
+        <div class="eventBreadcrumbBar">
+            <ol class="breadcrumb">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./index.html">Events</a></li>
+                <li class="active">Sporting Events</li>
+            </ol>
+        </div>
+        <div class="container-fluid boxclass">
+            <div class="col-md-12 col-lg-12 eventsMainTitle">
+                <h1 class="noMargin">Upcoming Sporting Events</h1>
+            </div>
+
+            <div class="col-md-8 col-lg-8">
+                <div class="row">
+                    <div id="carousel_events_page" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel_events_page" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel_events_page" data-slide-to="1"></li>
+                            <li data-target="#carousel_events_page" data-slide-to="2"></li>
+                            <li data-target="#carousel_events_page" data-slide-to="3"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <a href="#">
+                                    <img src="./img/events/chargersGame.jpg" alt="">
+                                    <h3 class="carousel-caption">
+                                        Consistently ranked in the top 20 universities in the UK
+                                    </h3>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <img src="./img/events/ledOMFG.jpeg" alt="">
+                                <h3 class="carousel-caption">
+                                    Our global challenges are changing the world
+                                </h3>
+                            </div>
+                            <div class="item">
+                                <img src="./img/carousel_img_3.png" alt="">
+                                <h3 class="carousel-caption">
+                                    Knowledge and innovation is our business
+                                </h3>
+                            </div>
+                            <div class="item">
+                                <img src="./img/carousel_img_4.png" alt="">
+                                <h3 class="carousel-caption">
+                                    Join our global family of graduates, parents and friends
+                                </h3>
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel_events_page" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="false"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel_events_page" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div> <!-- End of carousel--> 
+                    
+                </div>
+
+                <div class="row">
+                    <div class="container-fluid">
+                        <div class="col-md-6 col-lg-6 maxHeading">
+                            <h1> Races for Couples </h1>
+                        </div>
+                        <div class="col-md-6 col-lg-6 maxHeading">
+                            <h1> San Diego Teams </h1>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <a href = "index.html"><img src = "img/news-earth.jpg" class = "sizeFinder"></a>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <a href = "index.html"><img src = "img/news-earth.jpg" class = "sizeFinder"></a>
+                        </div>
+                       
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="container-fluid">
+                        <div class="col-md-12 col-lg-12 maxHeading">
+                            <h1> Sporting Events Event Calendar </h1>
+                        </div>
+                        <div class="col-md-12 col-lg-12">
+                            <a href = "index.html"><img src = "img/events/whiteChristmas.jpg" class = "sizeFinder"></a>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <!-- footer space -->
+                <div class="row">
+                    <div class="container-fluid">
+                        <div class="col-md-12 col-lg-12 maxHeading">
+                            <br>
+                            <br>
+                            <br>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+           </div>  <!--   end of 9 col -->
+           <div class="col-md-1 col-lg-1">
+                <!-- <div class="row">
+                    Great deals of events
+                </div>
+                <div class="row">
+                    Top 10 Current Date Ideas
+                </div> -->
+            </div>
+           <div class="col-md-3 col-lg-3">
+                <div class="row">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse iaculis nunc et risus posuere auctor. Aenean a justo enim. Nulla sit amet velit sit amet magna mattis dignissim. Integer id fermentum ex. Vestibulum feugiat finibus rutrum. Nulla vehicula, elit ultricies mattis viverra, libero sapien viverra dolor, pulvinar mattis urna augue vitae turpis. Mauris id sem varius, tincidunt mauris accumsan, maximus nisi. Mauris scelerisque leo eu mi feugiat, sit amet aliquet lacus malesuada. Suspendisse eu pellentesque nunc. Suspendisse potenti. Quisque ut ullamcorper erat. Mauris dapibus nulla quis elit mollis convallis. Integer eget facilisis quam, at ornare dui. Ut viverra feugiat ligula id consectetur.
+                </div>
+                <br>
+                <br>
+                <div class="row">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse iaculis nunc et risus posuere auctor. Aenean a justo enim. Nulla sit amet velit sit amet magna mattis dignissim. Integer id fermentum ex. Vestibulum feugiat finibus rutrum. Nulla vehicula, elit ultricies mattis viverra, libero sapien viverra dolor, pulvinar mattis urna augue vitae turpis. Mauris id sem varius, tincidunt mauris accumsan, maximus nisi. Mauris scelerisque leo eu mi feugiat, sit amet aliquet lacus malesuada. Suspendisse eu pellentesque nunc. Suspendisse potenti. Quisque ut ullamcorper erat. Mauris dapibus nulla quis elit mollis convallis. Integer eget facilisis quam, at ornare dui. Ut viverra feugiat ligula id consectetur.
+                </div>
+            </div>
+          
+
+
+            
+        </div>
+    </main>
+
+    
+    <div id="footer">
+        <div class = "col-md-12 col-lg-12 spacing"></div>
+        <div class="col-md-2 col-lg-2 footerSection">
+        <h4><u>About</u></h4><BR>
+            <a href="#">About Us<BR></a>
+            <a href="#">Contact<BR></a>
+            <a href="#">Feedback<BR></a>
+        </div>
+        
+        <div class="col-md-2 col-lg-2 footerSection">
+            <h4><u>Quick Links</u></h4><BR>
+            <a href="#">Sign In<BR></a>
+            <a href="#">DateGuru Forums<BR></a>
+            <a href="#">FAQs<BR></a>
+            <a href="#">Site Map<BR></a>
+        </div>
+        
+        <div class="col-md-4 col-lg-4 footerSection">
+            
+<!--            <a href = "index.html"><img src = "img/LElogo.png"></a>-->
+        
+        </div>
+        
+        <div class="col-md-2 col-lg-2 footerSection">
+            <h4><u>Business owners</u></h4><BR>
+            <a href="#">Business Sign In<BR></a>
+            <a href="#">Business Support<BR></a>
+            <a href="#">Advertise on DateGuru<BR></a>
+            <a href="#">Claim Your Business<BR></a>
+        </div>
+        
+        <div class="col-md-2 col-lg-2 footerSocialSection">
+            <div class="container_fluid">
+                <div class="col-md-2 col-md-push-4 col-lg-2 col-lg-push-4">
+                    <div>
+                        <a href="">
+                            <i class="social_media_icon fa fa-facebook-square fa-3x pull-right"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="">
+                            <i class="social_media_icon fa fa-twitter-square fa-3x pull-right"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="">
+                            <i class="social_media_icon fa fa-youtube-square fa-3x pull-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div  class="col-md-2 col-md-push-6 col-lg-2 col-md-push-6">
+                    <div>
+                        <a href="">
+                            <i class="social_media_icon fa fa-reddit -square fa-3x pull-right"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="">
+                            <i class="social_media_icon fa fa-google-plus-square fa-3x pull-right"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="">
+                            <i class="social_media_icon fa fa-rss-square fa-3x pull-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
