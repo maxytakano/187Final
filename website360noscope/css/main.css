@@ -262,3 +262,10 @@
     font-size: 1.7em;
 }
 
+.placeImageContainer img {
+    width: 100%;
+}
+
+.placeUserProfileImageContainer img {
+    width: 100%;
+}
