@@ -1,1 +1,37 @@
+.eventSearchBarUnderHeader {
+    margin-bottom: 15px;
+}
 
+.eventsSearchIcon {
+    margin-top: 30px;
+    
+}
+
+.eventInputField {
+    width: 90%;
+}
+
+.eventSearchBarUnderHeader button{
+    margin-bottom: 15px;
+    vertical-align: middle;
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+.eventSearchBarUnderHeader button h3{
+    margin-top: 10px;
+}
+
+.eventBreadcrumbBar {
+    margin-left:0px;
+    margin-right:0px;
+    width:100%;
+}
+
+.eventBreadcrumbBar ol {
+    padding-left: 125px;
+}
+
+.eventsMainTitle {
+    text-align: center;
+}
