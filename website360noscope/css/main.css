@@ -54,3 +54,63 @@
     margin-top: 0px;
     margin-left: 15px;
 }
+
+
+
+
+.placesSearchBarUnderHeader {
+    margin: 0px;
+    width: 100%;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #dddddd;
+}
+
+.placesSearchIcon {
+    margin-top: 30px;
+    
+}
+
+.placesInputField {
+    width: 90%;
+}
+
+.placesSearchBarUnderHeader button{
+    margin-bottom: 15px;
+    vertical-align: middle;
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+.placesSearchBarUnderHeader button h3{
+    margin-top: 10px;
+}
+
+.placesBreadcrumbBar {
+    margin-left:0px;
+    margin-right:0px;
+    
+    width:100%;
+}
+
+.placesBreadcrumbBar ol {
+    padding-left: 125px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.placesMainTitle {
+    text-align: center;
+    color: #7d0101
+}
+
+.placesTopGeneralNav {
+    margin-left: 250px;
+}
+
+.placesTopGeneralNav .dropdown {
+    margin-top: 10px;
+}
+
+.placesTopGeneralNav .userProfileButton {
+    margin-top: 0px;
+    margin-left: 15px;
+}

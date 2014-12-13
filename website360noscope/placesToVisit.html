@@ -21,16 +21,16 @@
                     <img class="logo" src="img/logo-white.png" alt=""/>
                 </a>
             </div>
-            <nav class="navigation topic-nav eventTopGeneralNav">
+            <nav class="navigation topic-nav placesTopGeneralNav">
 				<div class="dropdown">
-					<a href="placesToVisit.html">Places to visit</a>
+					<a href="events.html">Events</a>
 					<div class="menu">
 						<section>
-							<a href="">Restaurants</a>
-							<a href="">Outdoors</a>
-							<a href="">Nightlife</a>
-                            <a href="">Entertainment</a>
-							<a href="">Getaways and Resorts</a>
+							<a href="">Music</a>
+							<a href="">Food and Drink</a>
+							<a href="">Festivals</a>
+                            <a href="">Performances</a>
+							<a href="">Sporting Events</a>
 						</section>
 					</div>
 				</div>
@@ -80,45 +80,63 @@
 		<div class="header-bottom">
             <nav class="navigation topic-nav">
 				<div>
-					<a href="">Events&nbsp;<i class="fa fa-caret-right"></i></a>
+					<a href="">Places to visit&nbsp;<i class="fa fa-caret-right"></i></a>
 				</div>
                 <div>
-					<a href="">Music</a>
+					<a href="">Restaurants</a>
 				</div>
                 <div>
-					<a href="">Food and Drink</a>
+					<a href="">Outdoors</a>
 				</div>
                 <div>
-					<a href="">Festivals</a>
+					<a href="">Nightlife</a>
 				</div>
                 <div>
-					<a href="">Performances</a>
+					<a href="">Entertainment</a>
 				</div>
                 <div>
-					<a href="">Sporting Events</a>
+					<a href="">Getaways and Resorts</a>
 				</div>
 			</nav>
 		</div>
 	</header>
     
 	<main>
-        <div class="eventSearchBarUnderHeader container-fluid">
+        <div class="placesSearchBarUnderHeader container-fluid">
             <div class="col-md-4 col-lg-4">
-                <h3>What?</h3>
-                <input class="eventInputField" type="text" name="whatevent" placeholder="What kind of event?">
-            </div>
-            <div class="col-md-3 col-lg-3">
-                <h3>Where?</h3>
-                <input class="eventInputField" type="text" name="whereevent" placeholder="Around where should the event be?">
-            </div>
-            <div class="col-md-3 col-lg-3">
-                <h3>When?</h3>
+                <h3>Activity Type</h3>
                 <select class="form-control">
-                    <option value="day">Day</option>
-                    <option value="week">Week</option>
-                    <option value="2weeks">2 Weeks</option>
-                    <option value="month">Month</option>
-                    <option value="year">Year</option>
+                    <option value="any">Any</option>
+                    <option value="restaurant">Restaurant</option>
+                    <option value="outdoors">Outdoors</option>
+                    <option value="nightlife">Nightlife</option>
+                    <option value="entertainment">Entertainment</option>
+                    <option value="getawaysAndResorts">Getaways and Resorts</option>
+                </select>
+            </div>
+            <div class="col-md-3 col-lg-3">
+                <h3>Ambiance</h3>
+                <select class="form-control">
+                    <option value="any">Any</option>
+                    <option value="romantic">Romantic</option>
+                    <option value="relaxed">Relaxed</option>
+                    <option value="bourgeoisie">Bourgeoisie</option>
+                    <option value="vintage">Vintage</option>
+                    <option value="casual">Casual</option>
+                    <option value="fancy">Fancy</option>
+                    <option value="fun">Fun</option>
+                </select>
+            </div>
+            <div class="col-md-3 col-lg-3">
+                <h3>Duration</h3>
+                <select class="form-control">
+                    <option value="any">Any</option>
+                    <option value="underAnHour">Under an Hour</option>
+                    <option value="1Hour">1 Hour</option>
+                    <option value="2Hour">2 Hours</option>
+                    <option value="3Hour">3 Hours</option>
+                    <option value="4Hour">4 Hours+</option>
+                    <option value="allDay">All Day</option>
                 </select>
             </div>
             <div class="col-md-2 col-lg-2 eventsSearchIcon">
@@ -127,103 +145,74 @@
                 </button>
             </div>
         </div>
-        <div class="eventBreadcrumbBar">
+        <div class="placesSearchBarUnderHeader container-fluid">
+            <div class="col-md-3 col-lg-3">
+                <h3>Sort By</h3>
+                <select class="form-control">
+                    <option value="mostRelevant">Most Relevant</option>
+                    <option value="highestRated">Highest Rated</option>
+                    <option value="mostReviewed">Most Reviewed</option>
+                </select>
+            </div>
+            <div class="col-md-3 col-lg-3">
+                <h3>Distance</h3>
+                <select class="form-control">
+                    <option value="any">Any</option>
+                    <option value="lessThanAMile">&lt; Mile</option>
+                    <option value="lessThan2Miles">&lt; 2 Miles</option>
+                    <option value="lessThan5Miles">&lt; 5 Miles</option>
+                    <option value="lessThan10Miles">&lt; 10 Miles</option>
+                </select>
+            </div>
+            <div class="col-md-3 col-lg-3">
+                <h3>Price Range</h3>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="">
+                    $0-$20
+                  </label>
+                </div>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="">
+                    $20-$40
+                  </label>
+                </div>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="">
+                    $40-$100
+                  </label>
+                </div>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="">
+                    &gt; $100
+                  </label>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3">
+                <h3>Categories</h3>
+                <select class="form-control">
+                    <option value="any">Any</option>
+                    <option value="american">America</option>
+                    <option value="seafood">Seafood</option>
+                    <option value="mediteranian">Mediteranian</option>
+                    <option value="italian">Italian</option>
+                    <option value="french">French</option>
+                    <option value="asian">Asian</option>
+                    <option value="mexican">Mexican</option>
+                </select>
+            </div>
+        </div>
+        <div class="placesBreadcrumbBar">
             <ol class="breadcrumb">
                 <li><a href="./index.html">Home</a></li>
                 <li class="active">Events</li>
             </ol>
         </div>
         <div class="container-fluid">
-            <div class="col-md-12 col-lg-12 eventsMainTitle">
-                <h1>Hottest Upcoming Events</h1>
-            </div>
-            <div class="col-md-9 col-lg-9">
-                <div class="row">
-                    <div id="carousel_events_page" class="carousel slide" data-ride="carousel">
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators">
-                            <li data-target="#carousel_events_page" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel_events_page" data-slide-to="1"></li>
-                            <li data-target="#carousel_events_page" data-slide-to="2"></li>
-                            <li data-target="#carousel_events_page" data-slide-to="3"></li>
-                        </ol>
-
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner" role="listbox">
-                            <div class="item active">
-                                <a href="#">
-                                    <img src="./img/carousel_img_1.jpg" alt="">
-                                    <h3 class="carousel-caption">
-                                        Consistently ranked in the top 20 universities in the UK
-                                    </h3>
-                                </a>
-                            </div>
-                            <div class="item">
-                                <img src="./img/carousel_img_2.png" alt="">
-                                <h3 class="carousel-caption">
-                                    Our global challenges are changing the world
-                                </h3>
-                            </div>
-                            <div class="item">
-                                <img src="./img/carousel_img_3.png" alt="">
-                                <h3 class="carousel-caption">
-                                    Knowledge and innovation is our business
-                                </h3>
-                            </div>
-                            <div class="item">
-                                <img src="./img/carousel_img_4.png" alt="">
-                                <h3 class="carousel-caption">
-                                    Join our global family of graduates, parents and friends
-                                </h3>
-                            </div>
-                        </div>
-
-                        <!-- Controls -->
-                        <a class="left carousel-control" href="#carousel_events_page" role="button" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="false"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="right carousel-control" href="#carousel_events_page" role="button" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div> <!-- End of carousel--> 
-                    
-                </div>
-                <div class="row">
-                    Essential Christmas Sightseeing
-                </div>
-                <div class="row">
-                    Photo/Article
-                </div>
-                <div class="row">
-                    Top Picks from our Date Experts
-                </div>
-                <div class="row">
-                    Photo/Article
-                </div>
-                <div class="row">
-                    San Diego Events Calendar
-                </div>
-                <div class="row">
-                    Photo/Article
-                </div>
-                <div class="row">
-                    <div class="container-fluid">
-                        <div class="col-md-4 col-lg-4">Box 1</div>
-                        <div class="col-md-4 col-lg-4">Box 2</div>
-                        <div class="col-md-4 col-lg-4">Box 3</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-lg-3">
-                <div class="row">
-                    Great deals of events
-                </div>
-                <div class="row">
-                    Top 10 Current Date Ideas
-                </div>
-            </div>
+            
         </div>
     </main>
 
