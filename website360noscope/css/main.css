@@ -242,3 +242,9 @@
     height: 350px;
     width: 200px;
  }
+
+.pickup {
+    margin-top: 0;
+    margin-bottom: 10;
+    font-size: 1.5em;
+}
