@@ -1,5 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Quicksand);
 
+main {
+    background-image: url(/img/lightpaperfibers.png);
+    background-repeat: repeat;
+}
+
 /* Global stuff */
 html {
 	font-family: 'Quicksand', sans-serif;
@@ -28,7 +33,13 @@ header > *, main > *, footer > * {
 	.navigation a.active{
 		text-decoration: underline;;
 	}
+.topNavSearchBar {
+    margin-left:100px;
+}
 
+.userProfileButton {
+    margin-top: 10px;
+}
 /* Dropdown menus */
 .dropdown {
 	
@@ -70,6 +81,10 @@ header {
 	background: linear-gradient(to bottom, #7d0101 0%, #651110 100%);
     border-top: 1px solid #7d0101;
     border-bottom: 1px solid #651110;
+}
+
+header * {
+ background: none;
 }
 	header a:link, header a:visited {
 		color: white;
@@ -118,6 +133,7 @@ header {
 	justify-content: space-between;
 	
 	font-size: 1.2em;
+    margin-bottom: 5px;
 }
 	.header-bottom .topic-nav .dropdown > a {
 	/*

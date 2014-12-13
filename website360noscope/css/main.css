@@ -1,5 +1,7 @@
 .eventSearchBarUnderHeader {
-    margin-bottom: 15px;
+    margin: 0px;
+    width: 100%;
+    background-color: #f5f5f5;
 }
 
 .eventsSearchIcon {
@@ -25,13 +27,30 @@
 .eventBreadcrumbBar {
     margin-left:0px;
     margin-right:0px;
+    
     width:100%;
 }
 
 .eventBreadcrumbBar ol {
     padding-left: 125px;
+    border-bottom: 1px solid #dddddd;
+    border-top: 1px solid #dddddd;
 }
 
 .eventsMainTitle {
     text-align: center;
+    color: #7d0101
+}
+
+.eventTopGeneralNav {
+    margin-left: 250px;
+}
+
+.eventTopGeneralNav .dropdown {
+    margin-top: 10px;
+}
+
+.eventTopGeneralNav .userProfileButton {
+    margin-top: 0px;
+    margin-left: 15px;
 }
